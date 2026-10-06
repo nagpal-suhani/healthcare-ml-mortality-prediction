@@ -1,0 +1,356 @@
+{
+  "model_a": {
+    "algorithm": "xgboost",
+    "selected_threshold": 0.6,
+    "sweep_table": [
+      {
+        "threshold": 0.05,
+        "precision": 0.0994,
+        "recall": 0.9986,
+        "f1": 0.1808,
+        "f2": 0.3554,
+        "false_negatives": 2,
+        "false_positives": 13195
+      },
+      {
+        "threshold": 0.1,
+        "precision": 0.1137,
+        "recall": 0.9945,
+        "f1": 0.2041,
+        "f2": 0.3902,
+        "false_negatives": 8,
+        "false_positives": 11300
+      },
+      {
+        "threshold": 0.15,
+        "precision": 0.1286,
+        "recall": 0.9877,
+        "f1": 0.2275,
+        "f2": 0.4228,
+        "false_negatives": 18,
+        "false_positives": 9759
+      },
+      {
+        "threshold": 0.2,
+        "precision": 0.1448,
+        "recall": 0.976,
+        "f1": 0.2521,
+        "f2": 0.4543,
+        "false_negatives": 35,
+        "false_positives": 8406
+      },
+      {
+        "threshold": 0.25,
+        "precision": 0.1602,
+        "recall": 0.9554,
+        "f1": 0.2743,
+        "f2": 0.4794,
+        "false_negatives": 65,
+        "false_positives": 7305
+      },
+      {
+        "threshold": 0.3,
+        "precision": 0.1725,
+        "recall": 0.9287,
+        "f1": 0.291,
+        "f2": 0.4949,
+        "false_negatives": 104,
+        "false_positives": 6494
+      },
+      {
+        "threshold": 0.35,
+        "precision": 0.1884,
+        "recall": 0.9047,
+        "f1": 0.3119,
+        "f2": 0.5139,
+        "false_negatives": 139,
+        "false_positives": 5682
+      },
+      {
+        "threshold": 0.4,
+        "precision": 0.2055,
+        "recall": 0.8841,
+        "f1": 0.3334,
+        "f2": 0.5324,
+        "false_negatives": 169,
+        "false_positives": 4985
+      },
+      {
+        "threshold": 0.45,
+        "precision": 0.2247,
+        "recall": 0.8587,
+        "f1": 0.3562,
+        "f2": 0.549,
+        "false_negatives": 206,
+        "false_positives": 4319
+      },
+      {
+        "threshold": 0.5,
+        "precision": 0.2475,
+        "recall": 0.8368,
+        "f1": 0.382,
+        "f2": 0.5668,
+        "false_negatives": 238,
+        "false_positives": 3710
+      },
+      {
+        "threshold": 0.55,
+        "precision": 0.2722,
+        "recall": 0.8086,
+        "f1": 0.4073,
+        "f2": 0.58,
+        "false_negatives": 279,
+        "false_positives": 3153
+      },
+      {
+        "threshold": 0.6,
+        "precision": 0.2923,
+        "recall": 0.7709,
+        "f1": 0.4238,
+        "f2": 0.5807,
+        "false_negatives": 334,
+        "false_positives": 2722
+      },
+      {
+        "threshold": 0.65,
+        "precision": 0.3182,
+        "recall": 0.7298,
+        "f1": 0.4431,
+        "f2": 0.5798,
+        "false_negatives": 394,
+        "false_positives": 2280
+      },
+      {
+        "threshold": 0.7,
+        "precision": 0.3584,
+        "recall": 0.6763,
+        "f1": 0.4685,
+        "f2": 0.5744,
+        "false_negatives": 472,
+        "false_positives": 1765
+      },
+      {
+        "threshold": 0.75,
+        "precision": 0.4115,
+        "recall": 0.6063,
+        "f1": 0.4903,
+        "f2": 0.5539,
+        "false_negatives": 574,
+        "false_positives": 1264
+      },
+      {
+        "threshold": 0.8,
+        "precision": 0.5036,
+        "recall": 0.5343,
+        "f1": 0.5185,
+        "f2": 0.5278,
+        "false_negatives": 679,
+        "false_positives": 768
+      },
+      {
+        "threshold": 0.85,
+        "precision": 0.6217,
+        "recall": 0.4678,
+        "f1": 0.5339,
+        "f2": 0.4921,
+        "false_negatives": 776,
+        "false_positives": 415
+      },
+      {
+        "threshold": 0.9,
+        "precision": 0.7342,
+        "recall": 0.3978,
+        "f1": 0.516,
+        "f2": 0.4379,
+        "false_negatives": 878,
+        "false_positives": 210
+      },
+      {
+        "threshold": 0.95,
+        "precision": 0.9697,
+        "recall": 0.2414,
+        "f1": 0.3866,
+        "f2": 0.2841,
+        "false_negatives": 1106,
+        "false_positives": 11
+      }
+    ]
+  },
+  "model_b": {
+    "algorithm": "xgboost",
+    "selected_threshold": 0.65,
+    "sweep_table": [
+      {
+        "threshold": 0.05,
+        "precision": 0.0945,
+        "recall": 0.9993,
+        "f1": 0.1726,
+        "f2": 0.3427,
+        "false_negatives": 1,
+        "false_positives": 13968
+      },
+      {
+        "threshold": 0.1,
+        "precision": 0.1096,
+        "recall": 0.9945,
+        "f1": 0.1975,
+        "f2": 0.3804,
+        "false_negatives": 8,
+        "false_positives": 11776
+      },
+      {
+        "threshold": 0.15,
+        "precision": 0.1227,
+        "recall": 0.9904,
+        "f1": 0.2183,
+        "f2": 0.4101,
+        "false_negatives": 14,
+        "false_positives": 10328
+      },
+      {
+        "threshold": 0.2,
+        "precision": 0.1386,
+        "recall": 0.9801,
+        "f1": 0.2429,
+        "f2": 0.4427,
+        "false_negatives": 29,
+        "false_positives": 8879
+      },
+      {
+        "threshold": 0.25,
+        "precision": 0.1542,
+        "recall": 0.9554,
+        "f1": 0.2656,
+        "f2": 0.4686,
+        "false_negatives": 65,
+        "false_positives": 7639
+      },
+      {
+        "threshold": 0.3,
+        "precision": 0.1674,
+        "recall": 0.9321,
+        "f1": 0.2839,
+        "f2": 0.4872,
+        "false_negatives": 99,
+        "false_positives": 6757
+      },
+      {
+        "threshold": 0.35,
+        "precision": 0.1807,
+        "recall": 0.9053,
+        "f1": 0.3013,
+        "f2": 0.5025,
+        "false_negatives": 138,
+        "false_positives": 5983
+      },
+      {
+        "threshold": 0.4,
+        "precision": 0.1967,
+        "recall": 0.8813,
+        "f1": 0.3217,
+        "f2": 0.5197,
+        "false_negatives": 173,
+        "false_positives": 5247
+      },
+      {
+        "threshold": 0.45,
+        "precision": 0.2162,
+        "recall": 0.8512,
+        "f1": 0.3448,
+        "f2": 0.5362,
+        "false_negatives": 217,
+        "false_positives": 4500
+      },
+      {
+        "threshold": 0.5,
+        "precision": 0.2396,
+        "recall": 0.8217,
+        "f1": 0.371,
+        "f2": 0.553,
+        "false_negatives": 260,
+        "false_positives": 3802
+      },
+      {
+        "threshold": 0.55,
+        "precision": 0.2611,
+        "recall": 0.7881,
+        "f1": 0.3922,
+        "f2": 0.5614,
+        "false_negatives": 309,
+        "false_positives": 3252
+      },
+      {
+        "threshold": 0.6,
+        "precision": 0.2838,
+        "recall": 0.7558,
+        "f1": 0.4127,
+        "f2": 0.5672,
+        "false_negatives": 356,
+        "false_positives": 2781
+      },
+      {
+        "threshold": 0.65,
+        "precision": 0.315,
+        "recall": 0.716,
+        "f1": 0.4376,
+        "f2": 0.5707,
+        "false_negatives": 414,
+        "false_positives": 2270
+      },
+      {
+        "threshold": 0.7,
+        "precision": 0.3606,
+        "recall": 0.6591,
+        "f1": 0.4662,
+        "f2": 0.5655,
+        "false_negatives": 497,
+        "false_positives": 1704
+      },
+      {
+        "threshold": 0.75,
+        "precision": 0.4075,
+        "recall": 0.5844,
+        "f1": 0.4801,
+        "f2": 0.5377,
+        "false_negatives": 606,
+        "false_positives": 1239
+      },
+      {
+        "threshold": 0.8,
+        "precision": 0.4691,
+        "recall": 0.5199,
+        "f1": 0.4932,
+        "f2": 0.5089,
+        "false_negatives": 700,
+        "false_positives": 858
+      },
+      {
+        "threshold": 0.85,
+        "precision": 0.5473,
+        "recall": 0.4444,
+        "f1": 0.4905,
+        "f2": 0.4618,
+        "false_negatives": 810,
+        "false_positives": 536
+      },
+      {
+        "threshold": 0.9,
+        "precision": 0.6412,
+        "recall": 0.3861,
+        "f1": 0.482,
+        "f2": 0.4195,
+        "false_negatives": 895,
+        "false_positives": 315
+      },
+      {
+        "threshold": 0.95,
+        "precision": 0.8419,
+        "recall": 0.19,
+        "f1": 0.31,
+        "f2": 0.2248,
+        "false_negatives": 1181,
+        "false_positives": 52
+      }
+    ]
+  }
+}

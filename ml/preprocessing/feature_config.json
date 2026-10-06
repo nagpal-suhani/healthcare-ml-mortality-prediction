@@ -1,0 +1,80 @@
+{
+  "model_a": {
+    "name": "Model A - Full Featured",
+    "description": "Includes treatment_type and post-admission information (length of stay, treatment cost). Higher expected accuracy, but reflects the full clinical course rather than admission-time risk only.",
+    "numeric_features": [
+      "age",
+      "bmi",
+      "symptom_count",
+      "has_comorbidity",
+      "symptom_fatigue",
+      "symptom_fever",
+      "symptom_shortness_of_breath",
+      "symptom_chest_pain",
+      "symptom_swelling",
+      "symptom_numbness",
+      "symptom_dizziness",
+      "symptom_blurred_vision",
+      "symptom_unexplained_weight_loss",
+      "days_hospitalized",
+      "treatment_cost_log"
+    ],
+    "categorical_features": [
+      "gender",
+      "state",
+      "region",
+      "urban_rural",
+      "disease_name",
+      "severity",
+      "comorbidity",
+      "smoking_status",
+      "alcohol_use",
+      "blood_group",
+      "income_level",
+      "insurance_status",
+      "hospital_type",
+      "bmi_category",
+      "age_risk_group",
+      "length_of_stay_category",
+      "treatment_type"
+    ],
+    "target": "death_flag"
+  },
+  "model_b": {
+    "name": "Model B - Early Risk Only",
+    "description": "Excludes treatment_type AND all post-admission information (days_hospitalized, length_of_stay_category, treatment_cost_log). Uses only features realistically available at/near diagnosis/admission, for a genuine early-warning risk tool.",
+    "numeric_features": [
+      "age",
+      "bmi",
+      "symptom_count",
+      "has_comorbidity",
+      "symptom_fatigue",
+      "symptom_fever",
+      "symptom_shortness_of_breath",
+      "symptom_chest_pain",
+      "symptom_swelling",
+      "symptom_numbness",
+      "symptom_dizziness",
+      "symptom_blurred_vision",
+      "symptom_unexplained_weight_loss"
+    ],
+    "categorical_features": [
+      "gender",
+      "state",
+      "region",
+      "urban_rural",
+      "disease_name",
+      "severity",
+      "comorbidity",
+      "smoking_status",
+      "alcohol_use",
+      "blood_group",
+      "income_level",
+      "insurance_status",
+      "hospital_type",
+      "bmi_category",
+      "age_risk_group"
+    ],
+    "target": "death_flag"
+  }
+}

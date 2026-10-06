@@ -1,0 +1,16 @@
+{
+  "train_rows": 16000,
+  "test_rows": 4000,
+  "train_target_dist": {
+    "0": 0.9089,
+    "1": 0.0911
+  },
+  "test_target_dist": {
+    "0": 0.909,
+    "1": 0.091
+  },
+  "patient_id_overlap_count": 0,
+  "leakage_columns_in_model_a": [],
+  "leakage_columns_in_model_b": [],
+  "post_admission_columns_in_model_b": []
+}

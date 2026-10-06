@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: #0f172a;
+  --color-ink-soft: #47536b;
+  --color-panel: #f7f9fb;
+  --color-line: #e2e8f0;
+  --color-brand: #1d4e6d;
+  --color-brand-dark: #123549;
+  --color-brand-soft: #e7eef2;
+  --color-risk: #b4472b;
+  --color-risk-soft: #f7e9e5;
+  --color-safe: #3d7a5c;
+  --color-safe-soft: #e7f0ea;
+  --color-amber: #a8711a;
+  --color-amber-soft: #f6ecdc;
+}
+
+html, body {
+  background-color: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--color-brand-soft);
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}

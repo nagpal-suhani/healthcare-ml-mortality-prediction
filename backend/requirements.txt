@@ -1,0 +1,14 @@
+# Backend API dependencies
+fastapi==0.141.1
+uvicorn==0.53.0
+pydantic==2.13.5
+python-multipart==0.0.32
+python-dotenv==1.2.2
+
+# ML / data (shared with the ml/ pipeline — the backend imports
+# ml/prediction/predictor.py directly, so these must match)
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+xgboost==3.2.0
+joblib==1.5.3

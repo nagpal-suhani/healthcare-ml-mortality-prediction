@@ -1,0 +1,90 @@
+{
+  "model_a": {
+    "top10_xgboost_shap": [
+      "severity_Critical",
+      "age",
+      "severity_Severe",
+      "treatment_cost_log",
+      "days_hospitalized",
+      "treatment_type_Medication",
+      "treatment_type_Palliative",
+      "symptom_chest_pain",
+      "symptom_shortness_of_breath",
+      "disease_name_Depression"
+    ],
+    "top10_lr_positive": [
+      "treatment_type_Palliative",
+      "severity_Critical",
+      "disease_name_Hypertension",
+      "disease_name_Heart Disease",
+      "disease_name_Stroke",
+      "disease_name_Diabetes (Type 2)",
+      "disease_name_Breast Cancer",
+      "disease_name_Oral Cancer",
+      "disease_name_Chronic Kidney Disease",
+      "age_risk_group_Elderly"
+    ],
+    "top10_lr_negative": [
+      "disease_name_Jaundice (Hepatitis A)",
+      "disease_name_Depression",
+      "disease_name_Sickle Cell Anemia",
+      "disease_name_Thalassemia",
+      "disease_name_Anxiety Disorder",
+      "disease_name_Cholera",
+      "state_Mizoram",
+      "disease_name_Gastroenteritis",
+      "disease_name_Diarrhea",
+      "severity_Mild"
+    ],
+    "feature_agreement_count": 2,
+    "feature_agreement_list": [
+      "disease_name_Depression",
+      "treatment_type_Palliative"
+    ],
+    "early_availability_flagged": []
+  },
+  "model_b": {
+    "top10_xgboost_shap": [
+      "severity_Critical",
+      "severity_Severe",
+      "age",
+      "symptom_shortness_of_breath",
+      "symptom_chest_pain",
+      "symptom_numbness",
+      "severity_Mild",
+      "symptom_count",
+      "disease_name_Anxiety Disorder",
+      "symptom_dizziness"
+    ],
+    "top10_lr_positive": [
+      "severity_Critical",
+      "disease_name_Hypertension",
+      "disease_name_Heart Disease",
+      "disease_name_Diabetes (Type 2)",
+      "disease_name_Stroke",
+      "disease_name_Breast Cancer",
+      "disease_name_Oral Cancer",
+      "disease_name_Chronic Kidney Disease",
+      "disease_name_Lung Cancer",
+      "age_risk_group_Elderly"
+    ],
+    "top10_lr_negative": [
+      "state_Mizoram",
+      "disease_name_Jaundice (Hepatitis A)",
+      "disease_name_Cholera",
+      "disease_name_Gastroenteritis",
+      "disease_name_Anxiety Disorder",
+      "disease_name_Depression",
+      "disease_name_Sickle Cell Anemia",
+      "disease_name_Diarrhea",
+      "disease_name_Thalassemia",
+      "disease_name_Filariasis"
+    ],
+    "feature_agreement_count": 2,
+    "feature_agreement_list": [
+      "disease_name_Anxiety Disorder",
+      "severity_Critical"
+    ],
+    "early_availability_flagged": []
+  }
+}
